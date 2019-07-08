@@ -201,6 +201,10 @@ public class CurrencyEditText extends EditText {
     public String formatCurrency(long rawVal){
         return format(rawVal);
     }
+    
+    public getFullStringFormatted() {
+        return format(getRawValue()));   
+    }
 
     /*
     PRIVATE HELPER METHODS
