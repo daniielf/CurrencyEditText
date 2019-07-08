@@ -203,7 +203,7 @@ public class CurrencyEditText extends EditText {
     }
     
     public getFullStringFormatted() {
-        return format(getRawValue()));   
+        return format(getRawValue());   
     }
 
     /*
