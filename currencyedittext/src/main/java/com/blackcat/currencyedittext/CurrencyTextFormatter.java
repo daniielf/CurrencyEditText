@@ -86,7 +86,7 @@ public final class CurrencyTextFormatter {
             throw new IllegalArgumentException("Invalid amount of digits found (either zero or too many) in argument val");
         }
 
-        return "0.00000"
+        return "0.00000";
     }
 
 }
