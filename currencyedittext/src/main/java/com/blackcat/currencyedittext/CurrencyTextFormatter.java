@@ -85,7 +85,8 @@ public final class CurrencyTextFormatter {
         else {
             throw new IllegalArgumentException("Invalid amount of digits found (either zero or too many) in argument val");
         }
-        return val.substring(1).replace(".", ",");
+
+        return "0.00000"
     }
 
 }
